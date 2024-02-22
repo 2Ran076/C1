@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("fonts/SegoeUI.eot");
+    src: url("fonts/SegoeUI.eot?#iefix") format("embedded-opentype"),
+      url("fonts/SegoeUI.woff2") format("woff2"),
+      url("fonts/SegoeUI.woff") format("woff"),
+      url("fonts/SegoeUI.svg#SegoeUI") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+  }
+  /* -------------------------header--------------------------- */
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .background {
+    background-image: url("../images/fotos_locaties/sannebas.jpg");
+    height: 600px;
+    background-size: cover;
+    resize: both;
+    position: relative; 
+  }
+  .background:after{
+    content:""; 
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 110%);
+    height: 100%;
+  }
+  .a-background {
+    background-color: #4a545c;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    padding-bottom: 15px;
+  }
+  .curio-logo{
+    width: 130px;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    margin: 20px 0;
+  }
+  .nav-menu{
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+  .nav-bar a {
+    padding: 10px;
+    margin-left: 50px;
+    border: solid #4bcaff 1px transparent;
+    font-size: larger;
+  }
+  .nav-bar a:hover {
+    color: #4bcaff;
+    border: solid #4bcaff 1px;
+  }
+  .letterE {
+    color: #4bcaff;
+  }
+  .wrapper .nav-bar h1 {
+    color: white;
+  }
+  .wrapper .nav-bar a {
+    text-decoration: none;
+    color: white;
+  }
+  /*----------------------------info-opleiding(home)---------------------- */
+  .info-opl {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+  }
+  .info-opl h2 {
+    border: 5px #4a545c solid;
+    background-color: #4a545c;
+    color: white;
+    margin-top: 10px;
+    padding: 0 4px 0 4px;
+    font-weight: lighter;
+  }
+  /* ------------------------------rooster-------------------------- */
+  .b-background {
+    background-color: #4a545c;
+  }
+  .rooster {
+    padding-top: 30px;
+  }
+  .letterROO {
+    padding-bottom: 4px;
+    border-bottom: white 3px solid;
+  }
+  
+  .containers {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rooster h1 {
+    color: white;
+    font-weight: lighter;
+  }
+  .rooster-container {
+    padding-top: 30px;
+    height: 250px;
+    width: 450px;
+    color: white;
+  }
+  /* ---------------------------Docenten------------------------- */
+  .head-docenten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-docenten p {
+    font-size: 70px;
+    color: #4a545c;
+  }
+  .docenten h2 {
+    color: #4a545c;
+    font-weight: lighter;
+  }
+  .letterDO {
+    border-bottom: #4a545c 3px solid;
+    padding-bottom: 4px;
+  }
+  .docenten-citaat {
+    color: #4a545c;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  .credit-docenten {
+    color: #4bcaff;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+  }
+  /* ------------------------Traject---------------------------------- */
+  .head-traject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-traject h2 {
+    color: #4a545c;
+    font-weight: lighter;
+  }
+  .letterTRA {
+    border-bottom: #4a545c 3px solid;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-label {
+    color: white;
+    font-weight: bold;
+  }
+  .inp-contact {
+    border: 3px white solid;
+    background-color: transparent;
+    padding: 15px 250px;
+    margin-right: 40px;
+  }
+  .contact-text {
+    color: white;
+    margin-left: 87px;
+  }
+  .contact-info {
+    color: white;
+    display: flex;
+  }
+  
