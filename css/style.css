@@ -16,15 +16,18 @@
   }
   /* -------------------------header--------------------------- */
   .wrapper {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
   .background {
+    display: flex;
     background-image: url("../images/fotos_locaties/sannebas.jpg");
     height: 600px;
-    background-size: cover;
-    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 1500px;
     position: relative; 
+    background-attachment: fixed;
   }
   .background:after {
     content: ""; 
@@ -89,17 +92,16 @@
   }
   /*----------------------------info-opleiding(home)---------------------- */
   .info-bg{
-    background-color: #4a545c;
-    opacity: 0.5;
+    display: flex;
+    background-color: #000000;
     z-index: 2;
+    margin-top: 180px;
   }
   .info-opl {
-    position: relative; 
     z-index: 3; 
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 180px;
 }
   .info-bg h2 {
     border: 5px #4a545c solid;
@@ -129,11 +131,28 @@
     color: white;
     font-weight: lighter;
   }
-  .rooster-container {
-    padding-top: 30px;
-    height: 250px;
-    width: 450px;
+  .containers-rooster{
+    display: flex;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+  }
+  .containers-rooster p{
     color: white;
+    font-size: 30px;
+  }
+  .roosterfoto{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+  }
+  .rooster-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rooster-info p{
+    padding-top: 50px;
   }
   /* ---------------------------Docenten------------------------- */
   .head-docenten {

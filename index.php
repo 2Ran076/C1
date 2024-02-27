@@ -29,8 +29,8 @@
         <div class="content">
           <div class="background">
               <div class="wrapper">
-                  <div class="info-opl">
-                    <div class="info-bg">
+                  <div class="info-bg">
+                    <div class="info-opl">
                       <h2>Informatie Opleiding</h2>
                       <h4>In de opleiding Software Developer op mbo-niveau doe je uitgebreide kennis op over het ontwikkelen van apps en programmeren. Je wordt een specialist in talen zoals C#, PHP en Javascript. Of het nu gaat om het creëren van apps, websites, toepassingssoftware of mediaproducten, je hebt de vaardigheden om precies te begrijpen wat de klant nodig heeft en kunt deze wensen omzetten in realiteit. Je bent pas tevreden als de apps die je ontwikkelt foutloos functioneren, door ze grondig te testen tot ze aan alle eisen voldoen.</h4>
                   </div>
@@ -40,36 +40,21 @@
           <section id="rooster">
             <div class="b-background">
                 <div class="wrapper rooster">
-                    <h1><span class="letterROO">ROO</span>STERS EN VAKKEN</h1>
-                    <div class="containers">
-                        <div class="rooster-container">
-                            <img src="img/Icon_coffee.png" alt="" />
-                            <h2>COFFEE</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_instant.png" alt="" />
-                            <h2>INSTANT</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_serious.png" alt="" />
-                            <h2>SERIOUS</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_frame.png" alt="" />
-                            <h2>FRAME</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                    <h1><span class="letterROO">ROO</span>STER</h1>
+                    <div class="containers-rooster">
+                        <img src="images/Rooster eerste leerjaar.png" alt="" class="roosterfoto">
+                        <div class="rooster-info">
+                            <h1>ROOSTER</h1>
+                            <p>de start- en eindtijden van de schooldagen verschillen aanzienlijk. Sommige dagen beginnen vroeg in de ochtend, terwijl andere dagen juist een late start hebben. Dit specifieke voorbeeld beschrijft het rooster van een klas in blok A, wat af te leiden is aan de hand van de aangeboden vakken.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="docenten">
-            <div class="wrapper docenten">
-                <div class="head-docenten">
-                    <h2><span class="letterDO">DO</span>CENTEN</h2>
+        <section id="vakken">
+            <div class="wrapper vakken">
+                <div class="head-vakken">
+                    <h2><span class="letterVA">VA</span>KKEN</h2>
                 </div>
             </div>
         </section>
@@ -81,26 +66,6 @@
                 <div class="wrapper rooster">
                     <h1><span class="letterROO">ROO</span>STERS EN VAKKEN</h1>
                     <div class="containers">
-                        <div class="rooster-container">
-                            <img src="img/Icon_coffee.png" alt="" />
-                            <h2>COFFEE</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_instant.png" alt="" />
-                            <h2>INSTANT</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_serious.png" alt="" />
-                            <h2>SERIOUS</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
-                        <div class="rooster-container">
-                            <img src="img/Icon_frame.png" alt="" />
-                            <h2>FRAME</h2>
-                            <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -108,7 +73,6 @@
       </div>
     </main>
     <script>
-// Debounce function to limit the rate at which a function is executed
 function debounce(func, wait, immediate) {
     var timeout;
     return function() {
