@@ -16,7 +16,7 @@
   }
   /* -------------------------header--------------------------- */
   .wrapper {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
   .background {
@@ -122,11 +122,6 @@
     padding-bottom: 4px;
     border-bottom: white 3px solid;
   }
-  
-  .containers {
-    display: flex;
-    justify-content: space-between;
-  }
   .rooster h1 {
     color: white;
     font-weight: lighter;
@@ -154,73 +149,145 @@
   .rooster-info p{
     padding-top: 50px;
   }
-  /* ---------------------------Docenten------------------------- */
+  /* ---------------------------VAKKEN------------------------- */
+  .head-vakken {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .vakken h2 {
+    color: #4a545c;
+    font-weight: lighter;
+  }
+  .letterVA {
+    border-bottom: #4a545c 3px solid;
+    padding-bottom: 4px;
+  }
+  .vakken{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .vakken-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .grid-vak{
+    display: flex;
+    border: solid black 2px;
+    margin: 0 20px 10px 0;
+    padding: 3rem;
+  }
+  .grid-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* ------------------------Blokken---------------------------------- */
+  .blokken-bg{
+    background-color: #4a545c;
+  }
+  .blokken{
+    padding-top: 20px;
+  }
+  .head-blokken {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-blokken h2 {
+    color: white;
+    font-weight: lighter;
+  }
+  .letterBLO {
+    padding-bottom: 4px;
+    border-bottom: white 3px solid;
+  }
+  .blokken h1 {
+    color: white;
+    font-weight: lighter;
+  }
+  .containers-blokken{
+    display: flex;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+  }
+  .containers-blokken p{
+    color: white;
+    font-size: 30px;
+  }
+  .blokkenfoto{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+  }
+  .blokken-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blokken-info p{
+    padding-top: 10px;
+    font-size: larger;
+  }
+  /*---------------------------------docenten-----------------------------*/
+  .docenten-bg{
+    min-height:100%;
+    background: 
+     linear-gradient(rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 
+     0 0/100% 200%;
+     animation: a 0.4s linear infinite;
+  }
+  @keyframes a {
+    to {background-position:0 -200%}
+  }
+  .docenten{
+    padding-top: 20px;
+    padding-bottom: 500px;
+  }
   .head-docenten {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .head-docenten p {
-    font-size: 70px;
-    color: #4a545c;
-  }
-  .docenten h2 {
-    color: #4a545c;
+  .head-docenten h2 {
+    color: white;
     font-weight: lighter;
   }
   .letterDO {
-    border-bottom: #4a545c 3px solid;
     padding-bottom: 4px;
+    border-bottom: white 3px solid;
   }
-  .docenten-citaat {
-    color: #4a545c;
-    font-weight: lighter;
-    font-size: 25px;
-  }
-  .credit-docenten {
-    color: #4bcaff;
-    font-weight: bold;
-    padding: 25px 0 25px 0;
-  }
-  /* ------------------------Traject---------------------------------- */
-  .head-traject {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .head-traject h2 {
-    color: #4a545c;
+  .docenten h1 {
+    color: white;
     font-weight: lighter;
   }
-  .letterTRA {
-    border-bottom: #4a545c 3px solid;
-  }
-  .form-group {
+  .containers-docenten{
     display: flex;
-    flex-direction: column;
+    margin-left: 290px;
   }
-  .top-container {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .grid-docent{
+    margin: 20px;
   }
-  .contact-label {
-    color: white;
+  .grid-docent h1{
+    font-size: xx-large;
     font-weight: bold;
   }
-  .inp-contact {
-    border: 3px white solid;
-    background-color: transparent;
-    padding: 15px 250px;
-    margin-right: 40px;
+  .foto-docent{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transition: all .5s;
   }
-  .contact-text {
-    color: white;
-    margin-left: 87px;
+  .foto-docent:hover{
+    transform: scale(3.5);
+    -o-transform: scale(3.5);
+    -moz-transform: scale(3.5);
+    -webkit-transform: scale(3.5);
+    
   }
-  .contact-info {
-    color: white;
-    display: flex;
-  }
-  

@@ -56,16 +56,93 @@
                 <div class="head-vakken">
                     <h2><span class="letterVA">VA</span>KKEN</h2>
                 </div>
+                <div class="vakken">
+                    <div class="vakken-container">
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Native</h3>
+                                <p>Leren programmeren met Python en C#.</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Web</h3>
+                                <p>leren programmeren met websites.<br> met de talen HTML, CSS, PHP en een beetje JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>PRO</h3>
+                                <p>PraktijkOndersteuning. Leren met werkwijzes.</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>PRA</h3>
+                                <p>De geleerde lesstof van WEB, NATIVE en PRO, realiseren etc.</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Mentoruur</h3>
+                                <p>belangrijke zaken bespreken met heel de klas</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Rekenen</h3>
+                                <p>Rekenen krijg je ook in het opleiding</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Engels</h3>
+                                <p>Ook krijg je Engels. Belangrijk in eht programma wereld</p>
+                            </div>
+                        </div>
+                        <div class="grid-vak">
+                            <div class="grid-info">
+                                <h3>Nederlands</h3>
+                                <p>Ook krijg je nederlands.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="traject">
-            <div class="wrapper traject">
-                <div class="head-traject">
-                    <h2><span class="letterTRA">TRA</span>JECT</h2>
+        <section id="blokken">
+            <div class="blokken-bg">
+                <div class="wrapper blokken">
+                    <div class="head-blokken">
+                        <h2><span class="letterBLO">BLO</span>KKEN</h2>
+                    </div>
+                    <div class="containers-blokken">
+                        <div class="blokken-info">
+                            <h1>Blokken</h1>
+                            <p>Binnen de opleiding Software Developer bij Curio volgen we een jaarindeling die afwijkt van traditionele onderwijsmodellen. Het studiejaar is opgedeeld in blokken die elk een periode van zes maanden duurt, met uitzondering van het afsluitende blok. Dit laatste blok is speciaal gereserveerd voor de eindstage van de studenten.
+                                Daarnaast biedt de opleiding een optie voor studenten die hun studietraject willen versnellen door middel van een versnellerstraject. Dit traject maakt het mogelijk om een bepaald blok, specifiek blok E, over te slaan en de volgorde van blokken F en G om te draaien. Dit pad is bedoeld voor studenten die in staat zijn het programma in een verkort tijd te voltooien. Op visuele ondersteuningen, zoals schema's of grafieken, wordt dit versnelde pad gemarkeerd met het symbool delta (Δ).
+                            </p>
+                        </div>
+                        <img src="images/Opleidingsoverzicht3.png" alt="" class="blokkenfoto">
+                    </div>
                 </div>
-                <div class="wrapper rooster">
-                    <h1><span class="letterROO">ROO</span>STERS EN VAKKEN</h1>
-                    <div class="containers">
+            </div>
+        </section>
+        <section id="docenten">
+            <div class="docenten-bg">
+                <div class="wrapper docenten">
+                    <div class="head-docenten">
+                        <h2><span class="letterDO">Do</span>centen</h2>
+                    </div>
+                    <div class="containers-docenten">
+                        <div class="grid-docent">
+                            <img src="images/Docenten/elton.jpg" alt="" class="foto-docent">
+                            <h1>Elton boekhout</h1>
+                        </div>
+                        <div class="grid-docent">
+                            <img src="images/Docenten/mustafa.jpg" alt="" class="foto-docent">
+                            <h1>Mustafa kaşar peyniri</h1>
+                        </div>
                     </div>
                 </div>
             </div>
